@@ -52,8 +52,8 @@ O projeto segue uma arquitetura baseada em componentes funcionais:
 ## 📸 Prints
 
 <div align="center">
-  <img src="./print.png" width="600px">
-  <img src="./print.png" width="600px">
+  <img src="./tela-inicial.png" width="600px">
+  <img src="./tela-resultado.png" width="600px">
 </div>
 
 ---
