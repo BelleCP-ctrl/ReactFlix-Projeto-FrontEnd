@@ -1,0 +1,60 @@
+body {
+  /* Imagem de fundo */
+  background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2070&auto=format&fit=crop');
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  background-color: #1a1a1a;
+
+  color: white; 
+}
+
+.card {
+  background-color: rgba(30, 30, 30, 0.95) !important; 
+  color: #f0f0f0; 
+  border: 1px solid #444; 
+}
+
+/* Garante que o texto de subtítulo dentro do card fique claro */
+.card .text-muted {
+  color: #aaa !important; 
+}
+/* Título Principal */
+h1.text-primary {
+  text-shadow: 0 0 10px rgba(13, 110, 253, 0.6); /* Brilho azul atrás do texto */
+  letter-spacing: 1px;
+}
+
+/*visibilidade do subtítulo */
+p.text-muted {
+  color: #ccc !important; /* Muda de cinza escuro para cinza claro */
+  font-weight: 300;
+}
+/* Input de busca */
+input.form-control {
+  background-color: rgba(255, 255, 255, 0.9); /* Levemente transparente */
+  border: none;
+  padding: 12px;
+  border-radius: 30px 0 0 30px; /* Arredonda só a esquerda */
+}
+
+input.form-control:focus {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Brilho ao clicar */
+}
+
+/* Botão de busca personalizado */
+button.btn-primary {
+  background: linear-gradient(45deg, #0d6efd, #0099ff); 
+  border: none;
+  border-radius: 0 30px 30px 0; /* Arredonda só a direita */
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+button.btn-primary:hover {
+  transform: scale(1.05); /* Aumenta um pouquinho ao passar o mouse */
+  background: linear-gradient(45deg, #0056b3, #0088cc);
+}
